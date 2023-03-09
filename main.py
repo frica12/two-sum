@@ -4,8 +4,3 @@ def twoSum(nums, target):
             if(nums[i] + nums[j] == target):
                 print(f"[{i},{j}]")
     return
-
-nums = [3, 3]
-target = 6
-
-twoSum(nums, target)
